@@ -38,13 +38,13 @@ NOTE2: when the code finishes, the following message can be seen in the terminal
  Memory occupied after freeing everything: %d"
 This highlights the implementation of malloc and free (from C) in Java. Hopefully, the 2nd row will have 0 as memory occupied when the code finishes.
 
-# simple_redaction - Redact the debate
+# simple_redaction.c - Redact the debate
 When run the code will create a file (redacted_debate.txt) which will contain the redacted debate (read from debate.txt) according to the redactable words
 found in redactQ5.txt
 Note: when running the compiled file, use -T as a command line argument to also display the redacted text in the terminal.
 EX: if compiled file is Q5, run ./Q5 -T
 
-# complex_redaction CW2Q6.java - Redact War and Peace
+# complex_redaction.java - Redact War and Peace
 When run the code creates a new file (redactedWarAndPeace.txt) which will contain the redacted text (read from waradnpeace.txt) according to the redactable
 words found in redactQ6.txt and an algorithm which tries to identify proper nouns.
 
